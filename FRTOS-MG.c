@@ -5,9 +5,9 @@
 #include "queue.h"
 
 // Definição dos pinos para a BitDogLab RP2040
-#define BOTAO_A_PIN  5    // Botão A (GP4)
-#define LED_G_PIN    11   // LED RGB (Vermelho - GP18)
-#define LED_B_PIN 12
+#define BOTAO_A_PIN  5    // Botão A (GP5)
+#define LED_G_PIN    11   // LED RGB (Cor Verde)
+
 
 // Declaração das filas para comunicação entre tarefas
 QueueHandle_t xFilaBotao;
